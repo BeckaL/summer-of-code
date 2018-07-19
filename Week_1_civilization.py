@@ -24,6 +24,6 @@ def movement(current_square):
         if new_square not in known_land and land_test(int(new_square[0]), int(new_square[1])) and current_square+move not in completed_moves:
             completed_moves.append(starting_coordinates + move)
             return movement(new_square)
-#fake comment
+
 movement(starting_coordinates)
 print(known_land)
