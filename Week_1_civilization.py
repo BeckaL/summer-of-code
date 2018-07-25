@@ -28,6 +28,7 @@ def land_to_test(current_square):
             if square_to_test not in known_land and square_to_test not in known_sea and square_to_test not in land_to_be_tested:
                 land_to_be_tested.append(square_to_test)
 # 
+#
 # def test_land_cleanup():
 #     for square in land_to_be_tested:
 #         if square in known_land or square in known_sea:
